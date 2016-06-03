@@ -13,7 +13,7 @@ $string = '<VirtualHost *:80>
 ServerAdmin email@email.com
 DocumentRoot "C:/xampp/htdocs/'.$infos[0].'"
 ServerName '.$infos[1].'
-ServerAlias www.randerapp.dev
+ServerAlias '.$infos[1].'
 </VirtualHost>
 ';
 $local_link = "127.0.0.1            ".$infos[1];
