@@ -10,8 +10,8 @@ while($f = fgets(STDIN)){
 }
 if(count($infos) > 2) die("pls.");
 $string = '<VirtualHost *:80>
-ServerAdmin kazdal.ugur@1ki3.com
-DocumentRoot "C:/Users/ugur/PhpstormProjects/'.$infos[0].'"
+ServerAdmin email@email.com
+DocumentRoot "C:/xampp/htdocs/'.$infos[0].'"
 ServerName '.$infos[1].'
 ServerAlias www.randerapp.dev
 </VirtualHost>
